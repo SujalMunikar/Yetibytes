@@ -9,7 +9,9 @@ const About = () => {
     <>
     <AboutUs/>
     <Banner/>
+    <div id="team">
     <TeamSection/>
+    </div>
     <Contact/>
     </>
   );

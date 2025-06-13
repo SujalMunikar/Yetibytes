@@ -1,4 +1,5 @@
-import { useState } from 'react';
+// import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import yetibyteslogo from '../assets/yetibyteslogo.png'; 
 import { Link, useLocation } from 'react-router-dom';
 
@@ -9,10 +10,25 @@ const Header = () => {
   const isActive = (path) => {
     return location.pathname === path;
   };
+
+  const [prevScrollPos, setPrevScrollPos] = useState(window.scrollY);
+const [visible, setVisible] = useState(true);
+
+useEffect(() => {
+  const handleScroll = () => {
+    const currentScrollPos = window.scrollY;
+    setVisible(prevScrollPos > currentScrollPos || currentScrollPos < 10);
+    setPrevScrollPos(currentScrollPos);
+  };
+
+  window.addEventListener('scroll', handleScroll);
+  return () => window.removeEventListener('scroll', handleScroll);
+}, [prevScrollPos]);
   return (
     // <header className="bg-white shadow-md fixed top-0 left-0 right-0 z-50 px-4 md:px-8 ">
     //   <div className="container  flex items-center justify-between py-2 mx-auto max-w-7xl">
-    <header className="bg-white shadow-md fixed top-0 left-0 right-0 z-50 w-full">
+    // <header className="bg-white shadow-md fixed top-0 left-0 right-0 z-[60] w-full">
+    <header className={`bg-white shadow-md fixed top-0 left-0 right-0 z-[60] w-full transition-transform duration-300 ${visible ? 'translate-y-0' : '-translate-y-full'}`}>
   <div className="container mx-auto max-w-7xl flex items-center justify-between py-2 px-4 md:px-8"> 
     {/* Logo Section */}
         <div className="flex items-center">

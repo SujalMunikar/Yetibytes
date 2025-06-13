@@ -2,13 +2,14 @@ import React from "react";
 import PropTypes from "prop-types";
 import Digitalmarketing from "../../assets/digitalmarketingicon.svg"
 import image from "../../assets/webdevlopment.svg";
+import soft from "../../assets/softdevelopment.png";
 
 const Description = ({ selectCategory }) => {
     const data = {
         "Web Development": {
             heading: "Website Development",
             description:
-                "Seti Global Tech is Nepal’s leading web development company, known for delivering custom web solutions that fuel business growth. We specialize in designing and developing high-quality websites and web applications that stand out in today's digital world.",
+                "YetiBytes Tech is Nepal’s emerging web development company, known for delivering custom web solutions that fuel business growth. We specialize in designing and developing high-quality websites and web applications that stand out in today's digital world.",
             highlights: [
                 {
                     title: "Get Effective Consultancy",
@@ -35,7 +36,7 @@ const Description = ({ selectCategory }) => {
                     detail: "Apps optimized for speed, reliability, and user engagement.",
                 },
             ],
-            image: "https://cdn.pixabay.com/photo/2017/12/05/05/34/merry-christmas-2998593_1280.jpg",
+            image: "https://1010coding.com/wp-content/uploads/2021/12/Mobile-App-developer-3.png",
         },
         "Digital Marketing": {
             heading: "Digital Marketing",
@@ -67,7 +68,7 @@ const Description = ({ selectCategory }) => {
                     detail: "Secure, scalable, and maintainable software solutions.",
                 },
             ],
-            image: "https://cdn.pixabay.com/photo/2024/03/08/16/06/building-8621170_1280.jpg",
+            image: "https://www.stack-wizard.com/wp-content/uploads/2023/02/Shutterstock_2002200248-1.png",
         },
         "UI/UX Design": {
             heading: "UI/UX Design",
@@ -83,7 +84,7 @@ const Description = ({ selectCategory }) => {
                     detail: "Interactive prototypes with real-user testing and feedback.",
                 },
             ],
-            image: "https://cdn.pixabay.com/photo/2013/07/25/13/01/stones-167089_1280.jpg",
+            image: "https://i.pinimg.com/736x/02/b7/ff/02b7ff4159bb13d4ed8eeca448b86f59.jpg",
         },
     };
 
@@ -111,7 +112,8 @@ const Description = ({ selectCategory }) => {
                 <img
                     src={category.image}
                     alt={category.heading}
-                    className="rounded-md  h-[350px] w-full"
+                    // className="rounded-md  h-[350px] w-full"
+                     className="rounded-md w-full max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl h-auto object-contain mx-auto"
                     //    className="rounded-md w-full max-w-[500px] h-auto object-contain"
                 />
             </div>

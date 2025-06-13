@@ -16,7 +16,9 @@ const Home = () => {
       <ExpertiseCard/>
       <Workflow/>
       <Category/>
-      <Slider/>
+       <div id="testimonials">
+        <Slider/>
+      </div>
       <Banner/>
         </div>
     </>
