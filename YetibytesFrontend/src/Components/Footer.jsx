@@ -1,7 +1,22 @@
-import React from 'react';
+// import React from 'react';
+import React, { useState, useEffect } from 'react';
+import { Link } from "react-router-dom";
 import Logo from "../assets/yetibyteslogo.png"
 
 const Footer = () => {
+    const [showTopBtn, setShowTopBtn] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setShowTopBtn(window.scrollY > 250);
+    };
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
   const company = {
     name: "YetiBytes",
     tagline: "TECH PRIVATE LIMITED",
@@ -9,8 +24,8 @@ const Footer = () => {
   };
 
   const contact = {
-    email: "setglobaltech@gmail.com",
-    phone: "+977-9808113353",
+    email: "yetibytes8@gmail.com",
+    phone: "+977-9867077179",
     location: "Maitidevi, Kathmandu Nepal"
   };
 
@@ -18,12 +33,12 @@ const Footer = () => {
     {
       title: "Company",
       links: [
-        { name: "Services", url: "#" },
-        { name: "About us", url: "#" },
+        { name: "Services", url: "/services" },
+        { name: "About us", url: "/about" },
         { name: "Partners", url: "#" },
-        { name: "Careers", url: "#" },
+        { name: "Careers", url: "/career" },
         { name: "Pricing", url: "#" },
-        { name: "Testimonials", url: "#" }
+        { name: "Testimonials", url: "/#testimonials" }
       ]
     },
     {
@@ -32,7 +47,7 @@ const Footer = () => {
         { name: "Technologies", url: "#" },
         { name: "Terms and Conditions", url: "#" },
         { name: "Privacy Policy", url: "#" },
-        { name: "Team", url: "#" }
+        { name: "Team", url: "/about#team" }
       ]
     },
     {
@@ -109,6 +124,16 @@ const Footer = () => {
           </div>
         </div>
       </div>
+  
+      {showTopBtn && (
+        <button
+          onClick={scrollToTop}
+          className="fixed bottom-4 right-4 z-50 bg-primary text-white h-11 px-4 rounded-lg shadow-lg hover:bg-primaryHover transition-all"
+          aria-label="Back to top"
+        >
+          ↑
+        </button>
+      )}
     </footer>
   );
 };

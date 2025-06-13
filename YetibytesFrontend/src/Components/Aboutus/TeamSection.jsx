@@ -1,36 +1,37 @@
 import React from 'react';
 import image from "../../assets/ourservicebg.svg";
-
+import suyogImg from "../../assets/suyogdahal.png"; 
+import ceo from "../../assets/ceo.png";
 const data = {
   director: {
     role: "Executive Director",
     name: "Sandesh Thapa",
-    img: "https://plus.unsplash.com/premium_photo-1689607809844-dda6391f83b4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTB8fHxlbnwwfHx8fHw%3D",
+    img: ceo,
     size: "w-32 h-32"
   },
   members: [
     {
       role: "Team Leader",
-      name: "Mr. Anonymous Person",
-      img: "https://plus.unsplash.com/premium_photo-1736782965251-052e5b6bfe49?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTR8fHxlbnwwfHx8fHw%3D",
+      name: "Pralad Neupane",
+      img: "https://scontent.fktm1-1.fna.fbcdn.net/v/t39.30808-6/468710617_3750528078541822_7414675436506935573_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=Y9LSe9A1b7YQ7kNvwE-wT-4&_nc_oc=Adk4nXI4K4VAX0sxsckord0tlAUlCGMINN-ADwER8CDtMKsXusdOiXGtA3SPS_EFFTw&_nc_zt=23&_nc_ht=scontent.fktm1-1.fna&_nc_gid=NsQUfZfvgYXZB5AX-Hnyvg&oh=00_AfOYPraCmMA4VjdHeWLM6ShgyHC0QcysQTEwHFDpo24HdA&oe=684F1A88",
       size: "w-24 h-24"
     },
     {
       role: "Programming",
-      name: "Mr. Anonymous Person",
-      img: "https://images.unsplash.com/photo-1736754079614-8b43bcba9926?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mzd8fHxlbnwwfHx8fHw%3D",
+      name: "Pranav Thapa",
+      img: "https://scontent.fktm1-1.fna.fbcdn.net/v/t39.30808-6/483595976_631726566382270_3626719666113352463_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_ohc=l4Mrxjj6YmsQ7kNvwELuOMX&_nc_oc=AdkaM23quePyyEqoxXSpJLefHmz9rZcMl3iuddRVvk4vOgd7cmzRP2httZa2qcUIUyY&_nc_zt=23&_nc_ht=scontent.fktm1-1.fna&_nc_gid=NMqkqZI_Gw4KASJnSCXeXw&oh=00_AfNzcOLQG8ODGbdXTj3PKSfA_d9EZ5rbLcjeVJBcDt4nIw&oe=684F1D16",
       size: "w-24 h-24"
     },
     {
       role: "Design",
-      name: "Ms. Anonymous Person",
+      name: "Kritika Sapkota",
       img: "https://images.unsplash.com/photo-1736703456290-cc5e909cff12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MzV8fHxlbnwwfHx8fHw%3D",
       size: "w-24 h-24"
     },
     {
       role: "Marketing",
-      name: "Ms. Anonymous Person",
-      img: "https://images.unsplash.com/photo-1736762046814-678901a05bd3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MzN8fHxlbnwwfHx8fHw%3D",
+      name: "Suyog Dahal",
+      img: suyogImg,
       size: "w-24 h-24"
     }
   ]
