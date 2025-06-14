@@ -38,16 +38,23 @@ const Category = () => {
   return (
     // <div className="w-full py-5  max-w-7xl px-4 md:px-8">
 <div className="w-full py-5 max-w-7xl px-4 md:px-8 pt-20 mx-auto">
+<div className="w-full relative overflow-visible min-h-[400px]">
+  {/* Background image, full width, blurred and responsive */}
   <div
-    className="w-full py-6 relative overflow-hidden"
+    className="absolute inset-0 w-full h-full z-0"
     style={{
       backgroundImage: `url(${image})`,
       backgroundSize: "cover",
       backgroundPosition: "center",
+      filter: "blur(6px)",
     }}
-  >
-        <div className="max-w-7xl mx-auto  py-20 sm:py-32 md:py-40 ">
-          <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-center text-primary mb-2">
+    aria-hidden="true"
+  />
+  <div className="absolute inset-0 w-full h-full bg-white/60 z-0" />
+  {/* Content stays above */}
+  <div className="relative z-10 max-w-7xl mx-auto py-20 sm:py-32 md:py-40 px-4 md:px-8">
+    {/* ...your existing content (categories, products, etc.)... */}
+    <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-center text-primary mb-2">
             FEATURED SERVICES
           </div>
           <div className="text-sm sm:text-base text-center text-gray-600 mb-8 max-w-2xl mx-auto">
