@@ -3,6 +3,7 @@ import website from "../../assets/website.svg";
 import application from "../../assets/application.svg";
 import digital from "../../assets/digital.svg";
 import software from "../../assets/software.svg";
+import ux from "../../assets/ux.svg";
 
 const ExpertiseCard = () => {
   const data = [
@@ -28,7 +29,7 @@ const ExpertiseCard = () => {
     },
     {
       id: 5,
-      img: software,
+      img: ux,
       title: "UI/UX Design",
     },
   ];

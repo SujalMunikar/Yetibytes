@@ -37,16 +37,15 @@ const Category = () => {
 
   return (
     // <div className="w-full py-5  max-w-7xl px-4 md:px-8">
-      <div className="w-full py-5 max-w-7xl px-4 md:px-8 pt-20 mx-auto">
-      <div
-           className="w-full py-6"
-        style={{
-          backgroundImage: `url(${image})`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        
-        }}
-      >
+<div className="w-full py-5 max-w-7xl px-4 md:px-8 pt-20 mx-auto">
+  <div
+    className="w-full py-6 relative overflow-hidden"
+    style={{
+      backgroundImage: `url(${image})`,
+      backgroundSize: "cover",
+      backgroundPosition: "center",
+    }}
+  >
         <div className="max-w-7xl mx-auto  py-20 sm:py-32 md:py-40 ">
           <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-center text-primary mb-2">
             FEATURED SERVICES

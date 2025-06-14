@@ -23,7 +23,7 @@ const data = {
       size: "w-24 h-24"
     },
     {
-      role: "Design",
+      role: "Frontend",
       name: "Kritika Sapkota",
       img: "https://images.unsplash.com/photo-1736703456290-cc5e909cff12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MzV8fHxlbnwwfHx8fHw%3D",
       size: "w-24 h-24"

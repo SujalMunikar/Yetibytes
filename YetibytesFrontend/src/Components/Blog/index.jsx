@@ -1,5 +1,11 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import img from "../../assets/wireframe.jpg"
+import img1 from "../../assets/UX.avif"
+import img2 from "../../assets/api.jpg"
+import img3 from "../../assets/miglinear.png"
+import img4 from "../../assets/pmmod.jpg"
+import img5 from "../../assets/bill.jpg"
 
 const BlogResources = () => {
   const [searchQuery, setSearchQuery] = useState('');
@@ -16,7 +22,7 @@ const BlogResources = () => {
         date: '14 Jan 2023',
         avatar: 'https://plus.unsplash.com/premium_photo-1658527049634-15142565537a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGF2YXRhcnxlbnwwfHwwfHx8MA%3D%3D'
       },
-      image: 'https://cdn.pixabay.com/photo/2023/08/07/14/52/sunflowers-8175248_1280.jpg',
+      image: img5,
     },
     {
       id: 2,
@@ -28,7 +34,7 @@ const BlogResources = () => {
         date: '16 Jan 2023',
         avatar: 'https://plus.unsplash.com/premium_photo-1658527049634-15142565537a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGF2YXRhcnxlbnwwfHwwfHx8MA%3D%3D'
       },
-      image: 'https://cdn.pixabay.com/photo/2025/05/04/17/47/dog-9578735_1280.jpg',
+      image: img4,
     },
     {
       id: 3,
@@ -40,7 +46,7 @@ const BlogResources = () => {
         date: '15 Jan 2023',
         avatar: 'https://plus.unsplash.com/premium_photo-1658527049634-15142565537a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGF2YXRhcnxlbnwwfHwwfHx8MA%3D%3D'
       },
-      image: 'https://cdn.pixabay.com/photo/2022/10/05/19/40/church-7501379_1280.jpg',
+      image: img,
     },
     {
       id: 4,
@@ -52,7 +58,7 @@ const BlogResources = () => {
         date: '20 Jan 2023',
         avatar: 'https://plus.unsplash.com/premium_photo-1658527049634-15142565537a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGF2YXRhcnxlbnwwfHwwfHx8MA%3D%3D'
       },
-      image: 'https://cdn.pixabay.com/photo/2025/05/04/17/47/dog-9578735_1280.jpg',
+      image: img1,
     },
     {
       id: 5,
@@ -60,11 +66,11 @@ const BlogResources = () => {
       title: 'Migrating to Linear 101',
       description: 'Linear helps streamline software projects, sprints, tasks, and bug tracking. Here’s how to get started.',
       author: {
-        name: 'Phoenix Baker',
+        name: 'Ruben Vaalt',
         date: '19 Jan 2023',
         avatar: 'https://plus.unsplash.com/premium_photo-1658527049634-15142565537a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGF2YXRhcnxlbnwwfHwwfHx8MA%3D%3D'
       },
-      image: 'https://cdn.pixabay.com/photo/2022/10/05/19/40/church-7501379_1280.jpg',
+      image: img3,
     },
     {
       id: 6,
@@ -76,7 +82,7 @@ const BlogResources = () => {
         date: '18 Jan 2023',
         avatar: 'https://plus.unsplash.com/premium_photo-1658527049634-15142565537a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGF2YXRhcnxlbnwwfHwwfHx8MA%3D%3D'
       },
-      image: 'https://cdn.pixabay.com/photo/2023/08/07/14/52/sunflowers-8175248_1280.jpg',
+      image: img2,
     }
   ];
 

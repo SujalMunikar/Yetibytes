@@ -8,7 +8,7 @@ import WhatsApp from '../../assets/whatsapp.svg';
 const socialMediaLinks = [
   {
     name: "Facebook",
-    url: "#",
+    url: "https://www.facebook.com/profile.php?id=61569991765254",
     img: Facebook, 
     altText: "Facebook icon"
   },
@@ -26,7 +26,7 @@ const socialMediaLinks = [
   },
   {
     name: "WhatsApp",
-    url: "#",
+    url: "https://wa.me/9867077179",
     img: WhatsApp,
     altText: "WhatsApp icon"
   }

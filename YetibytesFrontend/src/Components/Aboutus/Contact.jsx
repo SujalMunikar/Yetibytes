@@ -15,27 +15,27 @@ const Contact = () => {
   const data = [
     {
       question: "What is Affiliate Program in Nepal by Yetibytes?",
-      answer: "Our affiliate program allows you to earn commission by promoting Yetibytes services. You'll receive a unique tracking link and earn a percentage of sales made through your referrals."
+      answer: "Our affiliate program allows you to earn commission by promoting Yetibytes services. You'll receive a message and earn a percentage of sales made through your referrals."
     },
     {
       question: "Where can I promote Yetibytes?",
       answer: "You can promote Yetibytes on your website, blog, social media channels, email newsletters, or any other platform where you have an audience interested in web development services."
     },
     {
-      question: "Where can I find the Templates & Resources to keep them on my Website?",
-      answer: "All affiliate templates and promotional resources are available in your affiliate dashboard after signing up. You'll find banners, text links, and other marketing materials to use on your website."
+      question: "How long does a typical project take?",
+      answer: "Project timelines vary based on complexity and scope. A small website may take 2–4 weeks, while custom software development can take several months. We provide a detailed project timeline after the initial consultation and regarding future setbacks we can discuss with the clients."
     },
     {
-      question: "For how much time the Customer is taken as my affiliate if he clicks on my link?",
-      answer: "When someone clicks your affiliate link, they are tracked as your referral for 30 days. Any purchase they make within that period will be attributed to your affiliate account."
+      question: "What services does YetiBytes Tech offer?",
+      answer: "We specialize in a wide range of IT solutions, including web and app development, cloud computing, IT consulting, cybersecurity, managed IT services, and custom software development. If you have a specific need, reach out—we're happy to help."
     },
     {
-      question: "Where can I promote Yetibytes?",
-      answer: "You can promote Yetibytes through your website, blog, social media platforms, email marketing, or any digital channel where your audience might be interested in web development services."
+      question: "Do you offer custom software development?",
+      answer: "Yes, custom software is one of our core services. We design, develop, and deploy tailored applications that align with your business objectives."
     },
     {
-      question: "For how much time the Customer is taken as my affiliate if he clicks on my link?",
-      answer: "Customers who click on your affiliate link will be tracked for 30 days. Any purchase they make within this period will count toward your commission."
+      question: "How do I contact your team?",
+      answer: "You can reach us through the contact form on our website, via email at yetibytes8@gmail.com, or message us directly using whatsapp at 98670777179."
     }
   ];
 

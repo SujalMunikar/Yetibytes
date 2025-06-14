@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import Digitalmarketing from "../../assets/digitalmarketingicon.svg"
 import image from "../../assets/webdevlopment.svg";
 import soft from "../../assets/softdevelopment.png";
+import app from "../../assets/service/spl.png";
 
 const Description = ({ selectCategory }) => {
     const data = {
@@ -36,7 +37,7 @@ const Description = ({ selectCategory }) => {
                     detail: "Apps optimized for speed, reliability, and user engagement.",
                 },
             ],
-            image: "https://1010coding.com/wp-content/uploads/2021/12/Mobile-App-developer-3.png",
+            image: app,
         },
         "Digital Marketing": {
             heading: "Digital Marketing",
