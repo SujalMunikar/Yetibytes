@@ -1,4 +1,6 @@
 import React from 'react';
+import img1 from "../../assets/career/hep.jpg";
+
 
 const CareerPage = () => {
   return (
@@ -13,8 +15,8 @@ const CareerPage = () => {
           <div className="w-full layout-padding px-4 md:w-1/2 text-center md:text-left py-4">
             <div className="text-primary font-semibold mb-2">- LIFE AT YETIBYTES</div>
             <div className="text-4xl  text-black  mb-4">
-              Bring your spark,<br />
-              we'll fuel the fire.
+              Build your Portfoilo,<br />
+              We provide the Expertise
             </div>
             <div className="text-gray-500 mb-6 max-w-lg">
               At YetiBytes, we believe that great things happen when passion meets opportunity. Whether you're just starting out or looking to take your career to the next level, we provide the tools, mentorship, and environment to help you thrive. Come as you are—and let's build something extraordinary together.
@@ -24,15 +26,23 @@ const CareerPage = () => {
             </button>
           </div>
 
-          <div className="w-full md:w-1/2 mt-10 md:mt-0 flex justify-center  md:justify-items-end pt-[400px] py-4">
-            <div className="rounded-se-[70px] rounded-es-[70px] overflow-hidden shadow-lg w-56 h-64">
-              <img
-                src="https://cdn.pixabay.com/photo/2024/11/30/15/55/eiffel-tower-9235220_1280.jpg"
-                alt="Team members working together"
-                className="w-full h-full object-cover"
-              />
-        </div>
-            </div>
+<div
+  className="hidden md:flex w-full md:w-1/2 mt-10 md:mt-0 justify-center md:justify-end py-4"
+  style={{
+    position: "relative",
+    left: "-2cm",   // Move 5cm to the left
+    top: "4.5cm",    // Move 20cm down
+    zIndex: 10,
+  }}
+>
+  <div className="relative w-full max-w-xs aspect-square rounded-se-[90px] rounded-es-[50px] overflow-hidden shadow-lg">
+    <img
+      src={img1}
+      alt="Team members working together"
+      className="w-full h-full object-cover object-center"
+    />
+  </div>
+</div>
           </div>
       </div>
     </div>

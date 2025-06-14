@@ -97,7 +97,7 @@ const ContactForm = () => {
               </div>
               <div>
                 <div className="font-semibold text-gray-500">Email Us</div>
-                <div className="text-gray-500 text-sm">yetibytes@gmail.com</div>
+                <div className="text-gray-500 text-sm">yetibytes8@gmail.com</div>
               </div>
             </div>
 
@@ -123,7 +123,7 @@ const ContactForm = () => {
               <div>
                 <div className="font-semibold text-gray-500">Call Us</div>
                 <div className="text-gray-500 text-sm">
-                  Phone: +977 9861113353
+                  Phone: +977 9867071179
                 </div>
               </div>
             </div>
@@ -135,7 +135,7 @@ const ContactForm = () => {
             <div className="font-semibold text-gray-500 mb-4">Our Socials</div>
             <div className="flex space-x-4">
               <a
-                href="https://www.facebook.com/Raibarpress"
+                href="https://www.facebook.com/profile.php?id=61569991765254"
                 className="w-8 h-8 bg-gray-200 rounded-full flex items-center justify-center text-primary hover:bg-blue-600 hover:text-white transition-colors"
               >
                 <svg
@@ -171,7 +171,7 @@ const ContactForm = () => {
                 </svg>
               </a>
               <a
-                href="#"
+                href="https://wa.me/9867077179"
                 className="w-8 h-8 bg-gray-200 rounded-full flex items-center justify-center text-primary hover:bg-blue-600 hover:text-white transition-colors"
               >
                 <svg
@@ -195,7 +195,7 @@ const ContactForm = () => {
             <div className="text-gray-500 mt-2">
               You can reach us anytime via{" "}
               <a href="mailto:yetibytes@gmail.com" className="text-primary">
-                yetibytes@gmail.com
+                yetibytes8@gmail.com
               </a>
             </div>
           </div>
@@ -250,7 +250,7 @@ const ContactForm = () => {
                 </select>
                 <input
                   type="tel"
-                  placeholder="9867071179"
+                  placeholder="9841000001"
                   className="w-full px-3 py-2 border border-gray-300 rounded-r-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                 />
               </div>

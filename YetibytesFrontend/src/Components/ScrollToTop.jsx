@@ -24,17 +24,18 @@ const ScrollToTop = () => {
 
   useEffect(() => {
     if (hash) {
+      // Only smooth scroll for hash links (footer links)
       setTimeout(() => {
         const el = document.getElementById(hash.replace("#", ""));
         if (el) el.scrollIntoView({ behavior: "smooth" });
-      }, 100); // <-- increased delay
+      }, 100);
     } else {
-      setTimeout(() => {
-        window.scrollTo({ top: 0, behavior: "smooth" });
-      }, 100); // <-- increased delay
+      // Instantly jump to top for normal navigation (header links)
+      window.scrollTo({ top: 0, behavior: "auto" });
     }
   }, [pathname, hash]);
 
   return null;
 };
+
 export default ScrollToTop;
