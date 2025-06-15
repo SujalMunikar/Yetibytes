@@ -51,9 +51,7 @@ const Category = () => {
     aria-hidden="true"
   />
   <div className="absolute inset-0 w-full h-full bg-white/60 z-0" />
-  {/* Content stays above */}
   <div className="relative z-10 max-w-7xl mx-auto py-20 sm:py-32 md:py-40 px-4 md:px-8">
-    {/* ...your existing content (categories, products, etc.)... */}
     <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-center text-primary mb-2">
             FEATURED SERVICES
           </div>

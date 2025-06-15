@@ -4,7 +4,7 @@ import suyogImg from "../../assets/suyogdahal.png";
 import ceo from "../../assets/ceo.png";
 const data = {
   director: {
-    role: "Executive Director",
+    role: "CEO",
     name: "Sandesh Thapa",
     img: ceo,
     size: "w-32 h-32"
