@@ -1,6 +1,8 @@
 import React from 'react';
 import image from "../../assets/ourservicebg.svg";
 import suyogImg from "../../assets/suyogdahal.png"; 
+import praladImg from "../../assets/pralad.jpg"; 
+import pranavImg from "../../assets/pranav.jpg"; 
 import ceo from "../../assets/ceo.png";
 const data = {
   director: {
@@ -13,13 +15,13 @@ const data = {
     {
       role: "Team Leader",
       name: "Pralad Neupane",
-      img: "https://scontent.fktm1-1.fna.fbcdn.net/v/t39.30808-6/468710617_3750528078541822_7414675436506935573_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=Y9LSe9A1b7YQ7kNvwE-wT-4&_nc_oc=Adk4nXI4K4VAX0sxsckord0tlAUlCGMINN-ADwER8CDtMKsXusdOiXGtA3SPS_EFFTw&_nc_zt=23&_nc_ht=scontent.fktm1-1.fna&_nc_gid=NsQUfZfvgYXZB5AX-Hnyvg&oh=00_AfOYPraCmMA4VjdHeWLM6ShgyHC0QcysQTEwHFDpo24HdA&oe=684F1A88",
+      img: praladImg,
       size: "w-24 h-24"
     },
     {
       role: "Programming",
       name: "Pranav Thapa",
-      img: "https://scontent.fktm1-1.fna.fbcdn.net/v/t39.30808-6/483595976_631726566382270_3626719666113352463_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_ohc=l4Mrxjj6YmsQ7kNvwELuOMX&_nc_oc=AdkaM23quePyyEqoxXSpJLefHmz9rZcMl3iuddRVvk4vOgd7cmzRP2httZa2qcUIUyY&_nc_zt=23&_nc_ht=scontent.fktm1-1.fna&_nc_gid=NMqkqZI_Gw4KASJnSCXeXw&oh=00_AfNzcOLQG8ODGbdXTj3PKSfA_d9EZ5rbLcjeVJBcDt4nIw&oe=684F1D16",
+      img: pranavImg,
       size: "w-24 h-24"
     },
     {
