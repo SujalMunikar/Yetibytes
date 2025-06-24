@@ -8,7 +8,7 @@ const data = {
   director: {
     role: "CEO",
     name: "Sandesh Thapa",
-    img: ceo,
+    img: ceo,  portfolio: "https://www.yetibytes.me",
     size: "w-32 h-32"
   },
   members: [
@@ -62,11 +62,18 @@ const TeamSection = () => {
         <div className="flex flex-col md:flex-row items-center justify-center mx-aut max-w-6xl px-4">
           <div className="md:w-1/2 flex flex-col items-center justify-center mb-8 md:mb-0">
             <div className="bg-gray-200 rounded-full p-2 mb-4 flex justify-center items-center">
-              <img
-                src={data.director.img}
-                alt={data.director.role}
-                className="rounded-full w-56 h-56 object-cover"
-              />
+              <a
+                href={data.director.portfolio}
+                target="_blank"
+                rel="noopener noreferrer"
+                title="View CEO Portfolio"
+              >
+                <img
+                  src={data.director.img}
+                  alt={data.director.role}
+                  className="rounded-full w-56 h-56 object-cover cursor-pointer"
+                />
+              </a>
             </div>
             <div className="text-primary font-bold text-xl mt-2">{data.director.role}</div>
             <div className="text-gray-800 font-medium mt-1">{data.director.name}</div>
