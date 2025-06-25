@@ -8,7 +8,7 @@ const data = {
   director: {
     role: "CEO",
     name: "Sandesh Thapa",
-    img: ceo,  portfolio: "https://www.yetibytes.me",
+    img: ceo,  portfolio: "https://www.sandeshthapa8.com.np",
     size: "w-32 h-32"
   },
   members: [
